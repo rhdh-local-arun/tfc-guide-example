@@ -5,15 +5,15 @@ variable "aws_region" {
 
 variable "db_table_name" {
   type    = string
-  default = "terraform-learn"
+  default = "hello-spring-table"
 }
 
 variable "db_read_capacity" {
   type    = number
-  default = 1
+  default = 5
 }
 
 variable "db_write_capacity" {
   type    = number
-  default = 1
+  default = 5
 }
