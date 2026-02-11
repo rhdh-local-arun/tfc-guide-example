@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "db_table_name" {
   type    = string
-  default = "hello-spring-table"
+  default = "hello-fpl-table"
 }
 
 variable "db_read_capacity" {
