@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "db_table_name" {
   type    = string
-  default = "hello-fpl-demo"
+  default = "fpl-demo-table"
 }
 
 variable "db_read_capacity" {
@@ -15,5 +15,5 @@ variable "db_read_capacity" {
 
 variable "db_write_capacity" {
   type    = number
-  default = 2
+  default = 1
 }
